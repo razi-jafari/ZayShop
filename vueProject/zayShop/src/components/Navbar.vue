@@ -1,6 +1,7 @@
 <template>
   <div id="nav-bar" >
     <p class="bg-indigo-light">hello</p>
+    <p>greeting</p>
    
   </div>
 </template>
