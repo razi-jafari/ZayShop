@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <span>
+          <i class="fas fa-user-secret"></i>
+
+    </span>
     <Navbar/>
   
     

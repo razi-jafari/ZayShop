@@ -1,8 +1,12 @@
 <template>
   <div id="nav-bar" >
-    <p class="bg-indigo-light">hello</p>
-    <p>greeting</p>
-    <p>cara</p>
+   <div class="container mx-auto">
+  
+<font-awesome-icon :icon="['fas', 'align-justify']" />
+<font-awesome-icon :icon="['fas', 'caret-right']" />
+
+  </div>
+    
    
   </div>
 </template>
