@@ -2,6 +2,7 @@
   <div id="nav-bar" >
     <p class="bg-indigo-light">hello</p>
     <p>greeting</p>
+    <p>cara</p>
    
   </div>
 </template>
