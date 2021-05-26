@@ -2,8 +2,10 @@
   <div id="nav-bar" >
    <div class="container mx-auto">
   
-<font-awesome-icon :icon="['fas', 'align-justify']" />
-<font-awesome-icon :icon="['fas', 'caret-right']" />
+    <div class="sotial-network">
+      <font-awesome-icon :icon="['fas', 'align-justify']" />
+      <font-awesome-icon :icon="['fas', 'instagram']" />
+    </div>
 
   </div>
     
@@ -21,5 +23,8 @@ export default {
 
 <style>
 #nav-bar{
+  background-color: rgb(53, 50, 50);
+  padding: 7px;
+  color: rgb(238, 238, 238);
 }
 </style>

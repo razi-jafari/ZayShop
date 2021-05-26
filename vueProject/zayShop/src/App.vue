@@ -5,6 +5,8 @@
 
     </span>
     <Navbar/>
+    <Menu/>
+    
   
     
   </div>
@@ -12,11 +14,13 @@
 
 <script>
 import Navbar from './components/Navbar.vue'
+import Menu from './components/Menu.vue'
 
 export default {
   name: 'App',
   components: {
     Navbar,
+    Menu
     
     
   }
