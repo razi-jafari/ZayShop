@@ -7,9 +7,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import router from './routers'
 import VueRouter from 'vue-router'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 Vue.use(VueRouter);
-library.add(faUserSecret)
 library.add(fas)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 // Vue.use(Routes)

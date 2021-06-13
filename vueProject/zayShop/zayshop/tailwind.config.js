@@ -1,25 +1,18 @@
-const colors = require('tailwindcss/colors')
 module.exports = {
-  variants: {
-    backgroundColor: ['responsive', 'hover', 'focus', 'active']
-  },
   purge: {
     mode:'layers',
     content:['./public/**/*.html', './src/**/*.vue']
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      colors: {
-        fuschia: colors.fuchsia,
-        orang: colors.orange,
-        teal: colors.teal,
-        rose: colors.rose,
-        dustywithe: '#fbfbfb',
-        darkgray: '#404040'
+    extend: {},
+    colors: {
+      indigo: {
+        light: '#b3bcf5',
+        DEFAULT: '#5c6ac4',
+        dark: '#202e78',
       }
     },
-   
     container: {
       center: true,
       padding: {
@@ -33,18 +26,17 @@ module.exports = {
     },
   
   variants: {
-    
     extend: {},
     // extend: {padding: ['hover'],backgroundColor: ['active'],},
   },
   plugins: [],
   screens: {
-    '2xl': {'max': '1535px'},
-    'xl': {'max': '1279px'},
-    'lg': {'max': '1023px'},
-    'md': {'max': '767px'},
-    'sm': {'max': '639px'}, 
-      
+    'xs': '480px',
+    'sm': '640px',
+    'md': '768px',
+    'lg': '1024px',
+    'xl': '1280px',
+    '2xl': '1536px',
   }
 }
 }
