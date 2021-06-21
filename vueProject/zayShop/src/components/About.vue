@@ -1,6 +1,6 @@
 <template>
   <div class="nested-menue" >
-   <h1>درباره ما</h1>
+   
     
    
   </div>

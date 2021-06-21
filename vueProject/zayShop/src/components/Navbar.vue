@@ -51,13 +51,10 @@ export default {
 
 <style>
 #nav-bar{
-  
   padding: 7px;
   color: rgb(238, 238, 238);
 }
 i{
   margin: 4px
 }
-
-
 </style>

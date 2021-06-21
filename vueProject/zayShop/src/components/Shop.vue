@@ -1,7 +1,7 @@
 <template>
   <div class="nested-menue" >
    <div >
-       فروشگاه
+     shop shop *********** shop
   </div>
     
    
